@@ -20,6 +20,9 @@
             transition: 0.70s;
         }
     }
+    .menu{
+        display: none;
+    }
 
     .my-btn{
         display: flex;
@@ -57,13 +60,23 @@
         nav{
             a{
                 display: none;
-            }
+            } 
         }
         .my-btn{
             padding-left: 50px;
+            .menu{
+                display: block;
+                align-items: center;
+                color: #a7b0c2;
+                font-size: 30px;
+                padding-right: 30px;
+            }
         }
+        
     }
 }
+
+
 
 // @media (max-width: px) {
 
