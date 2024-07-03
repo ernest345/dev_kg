@@ -1,1 +1,16 @@
-@import "./style/Footer.scss";
+@import '../src/assets/style/Header.scss';
+@import '../src/assets/style/Modal.scss';
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}@import "./style/Footer.scss";

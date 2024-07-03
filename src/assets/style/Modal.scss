@@ -1,0 +1,133 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 400px;
+    top: 0;
+    width: 40%;
+    height: 700px;
+    overflow: auto;
+    &.show {
+      display: block;
+    }
+  
+    .modal-content {
+      background-color: #fefefe;
+      padding: 20px;
+      width: 90%;
+      height: 500px;
+      position: relative;
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+  
+        &:hover,
+        &:focus {
+            color: #191f5d;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      }
+  
+      nav {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        a {
+          text-decoration: none;
+          color: #aaa;
+          margin: 10px 0;
+          color: #a7b0c2;
+          font-size: 20px;
+          font-weight: 700;
+  
+          &:hover {
+            color: #191f5d;
+          }
+        }
+      }
+    }
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 34px;
+  
+    nav {
+      a {
+        text-decoration: none;
+        color: #a7b0c2;
+        font-size: 17px;
+        letter-spacing: 0.03em;
+        font-weight: 700;
+        transition: all 0.2s;
+        padding-right: 40px;
+  
+        &:hover {
+          color: #191f5d;
+          transition: 0.7s;
+        }
+      }
+    }
+  
+    .menu {
+      display: none;
+    }
+  
+    .my-btn {
+      display: flex;
+      align-items: center;
+  
+      .icon-btn {
+        padding: 5px 13px;
+        padding-top: 7px;
+        font-size: 22px;
+        border: none;
+        background: #a7b0c2;
+        color: #fff;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+  
+      .login-button {
+        padding: 11px 20px;
+        background: #f0f0f0;
+        color: #191f5d;
+        border: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        overflow: hidden;
+      }
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .main-header {
+      nav {
+        a {
+          display: none;
+        }
+      }
+  
+      .my-btn {
+        padding-left: 50px;
+  
+        .menu {
+          display: block;
+          align-items: center;
+          color: #a7b0c2;
+          font-size: 30px;
+          padding-right: 30px;
+        }
+      }
+    }
+  }
+  
