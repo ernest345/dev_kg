@@ -21,11 +21,11 @@ const Header: React.FC = () => {
         <div className="main-header">
           <img src="https://devkg.com/js/img/logo.458f2cd.svg" alt="img" />
           <nav>
-            <NavLink to={"/вакансии"}>Вакансии</NavLink>
-            <NavLink to={"/мероприятия"}>Мероприятия</NavLink>
-            <NavLink to={"/видео"}>Видео</NavLink>
-            <NavLink to={"/организация"}>Организация</NavLink>
-            <NavLink to={"/сообщество"}>Сообщество</NavLink>
+            <Link to={"/вакансии"}>Вакансии</Link>
+            <Link to={"/мероприятия"}>Мероприятия</Link>
+            <Link to={"/видео"}>Видео</Link>
+            <Link to={"/организация"}>Организация</Link>
+            <Link to={"/сообщество"}>Сообщество</Link>
           </nav>
 
 
