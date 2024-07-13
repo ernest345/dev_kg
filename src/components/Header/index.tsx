@@ -19,13 +19,15 @@ const Header: React.FC = () => {
     <div id="header">
       <div className="container">
         <div className="main-header">
-          <img src="https://devkg.com/js/img/logo.458f2cd.svg" alt="img" />
+            <Link to={"/"}>
+              <img src="https://devkg.com/js/img/logo.458f2cd.svg" alt="img" /> 
+            </Link>
           <nav>
-            <Link to={"/вакансии"}>Вакансии</Link>
-            <Link to={"/мероприятия"}>Мероприятия</Link>
-            <Link to={"/видео"}>Видео</Link>
-            <Link to={"/организация"}>Организация</Link>
-            <Link to={"/сообщество"}>Сообщество</Link>
+            <Link to={"/vacancy"}>Вакансии</Link>
+            <Link to={"/events"}>Мероприятия</Link>
+            <Link to={"/meetups"}>Видео</Link>
+            <Link to={"/organizations"}>Организация</Link>
+            <Link to={"/community"}>Сообщество</Link>
           </nav>
 
 
