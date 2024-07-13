@@ -13,21 +13,11 @@ const Modal: React.FC<ModalProps> = ({ show, handleClose }) => {
                 <span className="close" onClick={handleClose}>&times;</span>
                 <img src="https://devkg.com/js/img/logo.458f2cd.svg" alt="img" />
                 <nav>
-                <Link to={'/'}>
-                        Вакансии
-                        </Link>
-                        <Link to={'/events'}>
-                        Мероприятия
-                        </Link>
-                        <Link to={'/meetups'}>
-                        Видео
-                        </Link>
-                        <Link to={'/organizations'}>
-                        Организация
-                        </Link>
-                        <Link to={'/community'}>
-                        Сообщество
-                        </Link>
+                    <Link to={'/'}>Вакансии</Link>
+                    <Link to={'/events'}>Мероприятия</Link>
+                    <Link to={'/meetups'}>Видео</Link>
+                    <Link to={'/organizations'}>Организация</Link>
+                    <Link to={'/community'}>Сообщество  </Link>
                 </nav>
             </div>
         </div>
