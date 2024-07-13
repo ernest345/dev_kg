@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 
     &.show {
         display: block;
@@ -32,6 +32,7 @@
             border: none;
             font-size: 16px;
             cursor: pointer;
+            color: #818896;
         }
         h2{
             font-size: 14px;
@@ -60,20 +61,20 @@
         }
         .btn{
             display: inline-block;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 20px;
-    border-radius: 17px;
-    background-color: #54a9eb;
-    overflow: hidden;
-    padding: 7px 16px 6px;
-    margin: 0;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    line-height: 20px;
-    padding: 9px 21px 11px;
-    border-radius: 20px;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 20px;
+            border-radius: 17px;
+            background-color: #54a9eb;
+            overflow: hidden;
+            padding: 7px 16px 6px;
+            margin: 0;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            line-height: 20px;
+            padding: 9px 21px 11px;
+            border-radius: 20px;
         }
         
     }

@@ -4,17 +4,19 @@
 @import "../src/assets/style/Footer.scss";
 @import "../src/assets/style/Vacancy.scss";
 @import '../src/assets/style/Soobshestvo.scss';
+@import '../src/assets/style/ModalLogin.scss';
+@import './style/Footer.scss';
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .container {
-  width: 80%;
-  margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
