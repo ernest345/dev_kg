@@ -1,17 +1,21 @@
-@import '../src/assets/style/Header.scss';
-@import '../src/assets/style/Modal.scss';
+
+@import "../src/assets/style/Header.scss";
+@import "../src/assets/style/Modal.scss";
+@import "../src/assets/style/Footer.scss";
+@import "../src/assets/style/Vacancy.scss";
 @import '../src/assets/style/Soobshestvo.scss';
 
-*{
-    padding: 0;
-    margin: 0;
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
-}@import "./style/Footer.scss";
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

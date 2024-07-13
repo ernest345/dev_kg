@@ -1,6 +1,6 @@
 import React from "react";
-import logoDev from "../images/logo-dev.svg";
-import devImg from "../images/img-dev.png";
+import logoDev from "../../assets/images/logo-dev.svg";
+import devImg from "../../assets/images/img-dev.png";
 import { FaTelegramPlane } from "react-icons/fa";
 import { RiFacebookBoxFill } from "react-icons/ri";
 import { TfiGithub } from "react-icons/tfi";
