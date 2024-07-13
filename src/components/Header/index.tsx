@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import { FaArrowRightToBracket } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
+
 import Modal from "../Modal";
 import { NavLink } from "react-router-dom";
+
 
 const Header: React.FC = () => {
   const [modalVisible, setModalVisible] = useState(false);
 
   const openModal = () => setModalVisible(true);
   const closeModal = () => setModalVisible(false);
+
 
   return (
     <div id="header">
@@ -22,6 +25,7 @@ const Header: React.FC = () => {
             <NavLink to={"/организация"}>Организация</NavLink>
             <NavLink to={"/сообщество"}>Сообщество</NavLink>
           </nav>
+
 
           <div className="my-btn">
             <div className="menu" onClick={openModal}>
