@@ -19,7 +19,6 @@ function App() {
         <Route path="/organizations" element={<Organizasii />} />
         <Route path="/community" element={<Soobshestvo />} />
       </Routes>
-      s
       <Footer />
     </div>
   );
