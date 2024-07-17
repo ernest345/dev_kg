@@ -7,6 +7,7 @@ import Meropriatia from "./components/Meropriatia";
 import Videoo from "./components/Videoo";
 import Organizasii from "./components/Organizasii";
 import Soobshestvo from "./components/Soobshestvo";
+import DetailVacancy from "./components/DetailVacancy";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/meetups" element={<Videoo />} />
         <Route path="/organizations" element={<Organizasii />} />
         <Route path="/community" element={<Soobshestvo />} />
+        <Route path="/detailVacancy" element={<DetailVacancy />} />
       </Routes>
       <Footer />
     </div>
