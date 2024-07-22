@@ -8,6 +8,7 @@ import Organizasii from "./components/Organizasii";
 import Soobshestvo from "./components/Soobshestvo";
 import DetailVacancy from "./components/DetailVacancy";
 import { Vacancies } from "./components/Vacancy/Vacancies";
+import DetailOrganization from "./components/DetailOrganization";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/organizations" element={<Organizasii />} />
         <Route path="/community" element={<Soobshestvo />} />
         <Route path="/detailVacancy" element={<DetailVacancy />} />
+        <Route path="/detailO" element={<DetailOrganization />} />
       </Routes>
       <Footer />
     </div>
