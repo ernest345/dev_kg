@@ -9,7 +9,7 @@ import Organizasii from "./components/Organizasii";
 import Soobshestvo from "./components/Soobshestvo";
 import DetailVacancy from "./components/DetailVacancy";
 import DetailOrganization from "./components/DetailOrganization";
-
+import DetailMeropriatia from "./components/DetailMeropriatia";
 function App() {
   return (
     <div className="App">
@@ -22,6 +22,7 @@ function App() {
         <Route path="/community" element={<Soobshestvo />} />
         <Route path="/detailVacancy" element={<DetailVacancy />} />
         <Route path="/detailO" element={<DetailOrganization />} />
+        <Route path="/detailMero" element={<DetailMeropriatia/>} />
       </Routes>
       <Footer />
     </div>
